@@ -53,7 +53,17 @@
         foreach ($animaux AS $animal => $bruit) {
             echo "<p> Le $animal fait un $bruit.</p>";
         }
-    ?>
+        
+        function foo($arg_1, $arg_2, /* ..., */ $arg_n){
+            echo "Exemple de fonction.\n";
+            return $retval;
+}
+
+
+?>
+
+        
+   
     
 </body>
 </html>
